@@ -1,0 +1,25 @@
+body { background-color: black; text-align: center;}
+h1 { color: white;}
+
+main, .result { 
+	margin: 20px auto; 
+	text-align: left; 
+	background-color: white;
+	padding: 1em;
+	border: 1px solid #ccc;
+	width: 400px;
+}
+
+.result {
+	background-color: transparent;
+	border-width: 0;
+	color: white;
+}
+
+.hidden { display: none;}
+.result p {
+	background-color: #eee;
+	border: 1px solid #bbb;
+	padding: 4px 8px;
+	color: black;
+}
